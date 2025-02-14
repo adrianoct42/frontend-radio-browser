@@ -1,9 +1,8 @@
 import "./App.css";
+import Favorites from "./components/Favorites";
 import Search from "./components/Search";
 
 function App() {
-  //const [count, setCount] = useState(0)
-
   return (
     <>
       <div className="flex h-screen">
@@ -11,7 +10,7 @@ function App() {
           <Search />
         </div>
         <div className="w-3/4 bg-gray-300 justify-center flex">
-          <h1>How do you guys do?</h1>
+          <Favorites />
         </div>
       </div>
     </>
