@@ -23,3 +23,10 @@ Também é possível favoritar rádios conforme desejado.
    npm install
 3. Execute o projeto:
    npm run dev
+
+## 🖥️ Etapas de Desenvolvimento
+1. Criação da tela da esquerda, a de pesquisa. Implementação simples de uma busca na API Rest.
+2. Implementação da feature de favoritos de uma rádio. LocalStorage foi usado para salvar tais preferências. A busca da API agora aceita receber parâmetros digitados.
+3. Botão de filtro de radios implementado. Criação da tela da direita, onde são mostrados as rádios favoritas. Funcionalidade de PLAY/PAUSE de rádios implementada.
+
+> This is a challenge by Coodesh
